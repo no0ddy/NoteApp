@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul id="navbar">
+      <li class="mg">Magic Notes</li>
+      <li><a href="#home">Home</a></li>
+      <input id="sr" type="search" placeholder="Search.." oninput="search()" />
+    </ul>
+    <div id="home">
+      <h1>Welcome to Magic Notes</h1>
+      <div id="inner">
+        <span>Add Title</span><br />
+        <input type="text" class="tx" /><br />
+        <span>Add a Note</span><br />
+        <textarea name="note" class="note"></textarea><br />
+        <button type="submit" id="sub">Add note</button>
+      </div>
+    </div>
+    <div id="yournotes">
+      <h1>Your Notes</h1>
+    </div>
+    <div id="event">
+      <p class="message">
+        Nothing to show here,Use Add Notes section above to add notes here.
+      </p>
+      <div id="evinner"></div>
+    </div>
+    <script src="note.js"></script>
+  </body>
+</html>

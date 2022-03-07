@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+#navbar {
+  font-family: 'Hubballi', cursive;
+  list-style-type: none;
+  margin: 0;
+  top: 0;
+  height: 3vw;
+  padding-top: 1.5vw;
+  padding-left: 0;
+  font-size: 2.5vw;
+  overflow: hidden;
+  position: sticky;
+  background-color: darkslategrey;
+}
+#navbar li {
+  font-family: 'Hubballi', cursive;
+  float: left;
+  display: inline;
+  padding-left: 1vw;
+  color: aliceblue;
+}
+#navbar a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 2vw;
+}
+#sr {
+  font-family: 'Hubballi', cursive;
+  float: right;
+  height: 2vw;
+  width: 4vw;
+  margin-right: 3.5vw;
+  margin-left: 0.5vw;
+  font-size: 1vw;
+}
+#navbar input {
+  width: 10vw;
+  float: right;
+  border: none;
+  font-size: 1.5vw;
+}
+
+#home {
+  font-family: 'Hubballi', cursive;
+  width: 80%;
+  margin: 0 auto;
+}
+#inner {
+  padding: 1vw;
+  width: 100%;
+  border-style: solid;
+  border-color: lightslategray;
+  border-width: 1px;
+}
+#inner span {
+  font-size: 2vw;
+}
+#inner .tx {
+  height: 2vw;
+  width: 45vw;
+}
+#inner .note {
+  height: 15vw;
+  width: 45vw;
+}
+#sub {
+  font-family: 'Hubballi', cursive;
+  height: 2.5vw;
+  width: 7vw;
+  background-color: skyblue;
+  color: aliceblue;
+  border-radius: 6px;
+  font-size: 1vw;
+}
+#yournotes {
+  font-family: 'Hubballi', cursive;
+  padding: 1vw;
+  width: 80%;
+  margin: 1vw auto;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: lightslategray;
+  border-width: 1px;
+}
+#event {
+  font-family: 'Hubballi', cursive;
+  padding: 1vw;
+  width: 80%;
+  margin: 0vw auto;
+}
+.message {
+  font-family: 'Hubballi', cursive;
+  font-size: 1.5vw;
+}
+#evinner {
+  width: 80%;
+  margin: 0vw auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 1.5vw;
+}
+.hidden {
+  display: none;
+}
+.addNote {
+  word-wrap: break-word;
+  padding: 1vw;
+  width: auto;
+  border: solid;
+  border-width: 1px;
+  background-color: palegreen;
+}
+.addNote h2 {
+  font-size: 4vw;
+}
+.addNote p {
+  font-size: 2vw;
+}
+.addNote a {
+  text-decoration: none;
+}
+
+.success-message {
+  margin: 1vw 0 1.5vw;
+  color: white;
+  padding: 1vw;
+  font-size: 2vw;
+  text-align: center;
+  background-color: green;
+  box-shadow: 2px 4px 7px 2px rgba(green, 0.2);
+}
+.remove-message {
+  margin: 1vw 0 1.5vw;
+  color: white;
+  padding: 1vw;
+  font-size: 2vw;
+  text-align: center;
+  background-color: blue;
+  box-shadow: 2px 4px 7px 2px rgba(blue, 0.2);
+}
+.alert-message {
+  margin: 1vw 0 1.5vw;
+  color: white;
+  padding: 1vw;
+  font-size: 2vw;
+  text-align: center;
+  background-color: red;
+  box-shadow: 2px 4px 7px 2px rgba(red, 0.2);
+}
+.ed {
+  font-family: 'Hubballi', cursive;
+  height: 2.5vw;
+  width: 7vw;
+  background-color: skyblue;
+  color: aliceblue;
+  border-radius: 6px;
+  font-size: 1vw;
+}
+.dl {
+  font-family: 'Hubballi', cursive;
+  height: 2.5vw;
+  width: 7vw;
+  background-color: skyblue;
+  color: aliceblue;
+  border-radius: 6px;
+  font-size: 1vw;
+}
